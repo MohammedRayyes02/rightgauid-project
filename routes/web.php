@@ -24,4 +24,7 @@ Route::get('/forget-password',[HomeController::class, 'forgetPassword'])->name('
 Route::get('/register',[HomeController::class, 'register'])->name('front.register');
 Route::get('/profile',[HomeController::class, 'profile'])->name('front.profile');
 Route::get('/request-details',[HomeController::class, 'requestDetails'])->name('front.request-details');
+Route::get('/user-info',[HomeController::class, 'userInfo'])->name('front.user-info');
+Route::get('/policies',[HomeController::class, 'policies'])->name('front.policies');
+Route::get('/privacy',[HomeController::class, 'privacy'])->name('front.privacy');
 

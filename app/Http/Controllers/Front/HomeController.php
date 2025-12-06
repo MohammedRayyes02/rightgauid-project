@@ -61,10 +61,25 @@ public function profile(){
    return view('front.profile');
 }
 
+
+public function userInfo(){
+   return view('front.user-info');
+}
+
+
 public function requestDetails(){
    return view('front.request-details');
 }
 
+
+public function policies(){
+   return view('front.policies');
+}
+
+
+public function privacy(){
+   return view('front.privacy');
+}
 
 
 }

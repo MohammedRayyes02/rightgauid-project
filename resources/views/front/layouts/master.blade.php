@@ -532,10 +532,10 @@
                         <div class="f-widget">
                             <h3 class="title">المنصة</h3>
                             <ul>
-                                <li><a href="">الرئيسية</a></li>
+                                <li><a href="{{ route('front.home') }}">الرئيسية</a></li>
                                 <li><a href="{{ route('front.hospitals') }}">المستشفيات</a></li>
-                                <li><a href="">الأخصائيين</a></li>
-                                <li><a href="">المدونة</a></li>
+                                <li><a href="{{ route('front.hospitals') }}">الأخصائيين</a></li>
+                                <li><a href="{{ route('front.blog') }}">المدونة</a></li>
                             </ul>
                         </div>
                     </div>
@@ -545,8 +545,8 @@
                             <ul>
                                 <li><a href="{{ route('front.aboutUs') }}">من نحن</a></li>
                                 <li><a href="{{ route('front.contact-us') }}">تواصل معنا</a></li>
-                                <li><a href="policies.html">الشروط والأحكام</a></li>
-                                <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                                <li><a href="{{ route('front.policies') }}">الشروط والأحكام</a></li>
+                                <li><a href="{{ route('front.privacy') }}">سياسة الخصوصية</a></li>
                             </ul>
                         </div>
                     </div>

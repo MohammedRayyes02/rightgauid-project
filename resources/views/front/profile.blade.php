@@ -83,7 +83,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="user-info.html">
+                                    <a href="{{ route('front.user-info') }}">
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                                 <g id="vuesax_bulk_profile" data-name="vuesax/bulk/profile" transform="translate(-108 -252)">
@@ -334,7 +334,7 @@
                             <h4 class="mb-5">مقالات مهمة</h4>
                             <div class="row">
                                 <div class="col-xl-6">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('front.blog-details') }}">
 
                                         <div class="recently-article-card d-flex align-items-center">
                                             <figure class="mb-0">
@@ -348,7 +348,7 @@
                                     </a>
                                 </div>
                                 <div class="col-xl-6">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('front.blog-details') }}">
 
                                         <div class="recently-article-card d-flex align-items-center">
                                             <figure class="mb-0">
@@ -362,7 +362,7 @@
                                     </a>
                                 </div>
                                 <div class="col-xl-6">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('front.blog-details') }}">
 
                                         <div class="recently-article-card d-flex align-items-center">
                                             <figure class="mb-0">
@@ -376,7 +376,7 @@
                                     </a>
                                 </div>
                                 <div class="col-xl-6">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('front.blog-details') }}">
 
                                         <div class="recently-article-card d-flex align-items-center">
                                             <figure class="mb-0">

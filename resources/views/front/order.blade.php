@@ -7,7 +7,7 @@
               <div class="col-lg-4">
                 <div class="hospital-card">
                     <figure>
-                        <img src="assets/images/hospital-1.png" alt="" srcset="">
+                        <img src="{{ asset('front/assets/images/hospital-1.png') }}" alt="" srcset="">
                     </figure>
                     <div class="hospital-rate">
                         <div class="d-flex align-items-center gap-1">
@@ -143,7 +143,7 @@
                      </div>
                      <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <a href="#" class="btn cs-btn v2">إرسال الطلب</a>
+                            <a href="{{ route('front.profile') }}" class="btn cs-btn v2">إرسال الطلب</a>
                         </div>
                      </div>
                 </div>
