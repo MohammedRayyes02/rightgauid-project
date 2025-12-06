@@ -144,7 +144,7 @@
         </div>
         <div class="container">
             <div class="content">
-                <div class="row mt-5">
+ل                <div class="row mt-5">
                     <div class="col-lg-auto col-md-6">
                         <div class="hospital-media">
                             <figure class="main-img">
@@ -252,7 +252,7 @@
                                   </div>
                                   <div class="d-flex flex-wrap gap-2 align-items-center flex-lg-grow-0 flex-grow-1">
                                     <a href="{{ route('front.hospitalDetails') }}" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
-                                    <a href="#" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
+                                    <a href="{{ route('front.order') }}" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
                                   </div>
                                 </div>
                             </div>
@@ -366,8 +366,8 @@
                                         </div>
                                   </div>
                                   <div class="d-flex flex-wrap gap-2 align-items-center flex-lg-grow-0 flex-grow-1">
-                                    <a href="hospital-details.html" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
-                                    <a href="#" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
+                                    <a href="{{ route('front.hospitalDetails') }}" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
+                                    <a href="{{ route('front.order') }}" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
                                   </div>
                                 </div>
                             </div>
@@ -480,8 +480,8 @@
                                          </div>
                                    </div>
                                    <div class="d-flex flex-wrap gap-2 align-items-center flex-lg-grow-0 flex-grow-1">
-                                     <a href="hospital-details.html" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
-                                     <a href="#" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
+                                     <a href="{{ route('front.hospitalDetails') }}" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
+                                     <a href="{{ route('front.order') }}" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
                                    </div>
                                  </div>
                              </div>
@@ -594,8 +594,8 @@
                                         </div>
                                   </div>
                                   <div class="d-flex flex-wrap gap-2 align-items-center flex-lg-grow-0 flex-grow-1">
-                                    <a href="hospital-details.html" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
-                                    <a href="#" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
+                                    <a href="{{ route('front.hospitalDetails') }}" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
+                                    <a href="{{ route('front.order') }}" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
                                   </div>
                                 </div>
                             </div>
@@ -708,8 +708,8 @@
                                         </div>
                                   </div>
                                   <div class="d-flex flex-wrap gap-2 align-items-center flex-lg-grow-0 flex-grow-1">
-                                    <a href="hospital-details.html" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
-                                    <a href="#" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
+                                    <a href="{{ route('front.hospitalDetails') }}" class="btn cs-btn cs-w-h">عرض التفاصيل</a>
+                                    <a href="{{ route('front.order') }}" class="btn cs-btn v2 cs-w-h">طلب عرض سعر</a>
                                   </div>
                                 </div>
                             </div>

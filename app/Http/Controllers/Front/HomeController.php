@@ -16,10 +16,55 @@ class HomeController extends Controller
 
 public function aboutUs(){
     return view('front.about-us');
+
+}
+
+public function blog(){
+   return view('front.blog');
+}
+
+public function blogDetails(){
+   return view('front.blog-details');
 }
 
 public function hospitalDetails(){
     return view('front.hospital-details');
 }
+
+public function order (){
+    return view ('front.order');
+}
+
+public function servicesDetails(){
+    return view('front.services-details');
+}
+
+public function contactUs(){
+   return view('front.contact-us');
+}
+
+public function login(){
+   return view('front.login');
+}
+
+public function forgetPassword(){
+   return view('front.forget-password');
+}
+
+
+public function register(){
+   return view('front.register');
+}
+
+
+public function profile(){
+   return view('front.profile');
+}
+
+public function requestDetails(){
+   return view('front.request-details');
+}
+
+
 
 }

@@ -64,7 +64,7 @@
                 <div class="content">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{route('front.blog-details')}}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article1.png') }}" alt="" srcset="">
@@ -81,7 +81,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{ route('front.blog-details') }}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article-2.png') }}" alt="" srcset="">
@@ -97,7 +97,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{ route('front.blog-details') }}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article-3.png') }}" alt="" srcset="">
@@ -128,7 +128,7 @@
                 <div class="content">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{ route('front.blog-details') }}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article1.png') }}" alt="" srcset="">
@@ -145,7 +145,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{ route('front.blog-details') }}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article-2.png') }}" alt="" srcset="">
@@ -161,7 +161,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{ route('front.blog-details') }}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article-3.png') }}" alt="" srcset="">
@@ -217,7 +217,7 @@
                 <div class="content">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{ route('front.blog-details') }}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article1.png') }}" alt="" srcset="">
@@ -234,7 +234,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{ route('front.blog-details') }}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article-2.png') }}" alt="" srcset="">
@@ -250,7 +250,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <a href="#">
+                            <a href="{{ route('front.blog-details') }}">
                                 <div class="article-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" >
                                     <figure>
                                         <img src="{{ asset('front/assets/images/article-3.png') }}" alt="" srcset="">

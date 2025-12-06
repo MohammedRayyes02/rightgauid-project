@@ -880,7 +880,7 @@
                             </p>
                         </div>
                         <div class="col-lg-3 mx-auto">
-                            <a href="#" class="btn cs-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">ارسل طلب الأن</a>
+                            <a href="{{ route('front.servicesDetails') }}" class="btn cs-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">ارسل طلب الأن</a>
                         </div>
                     </div>
                 </div>
@@ -1102,7 +1102,7 @@
             <div class="container">
                 <div class="main-title d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
                     <h2>من المدونة</h2>
-                    <a href="blog.html" class="btn cs-btn">عرض كل المقالات</a>
+                    <a href="{{ route('front.blog') }}" class="btn cs-btn">عرض كل المقالات</a>
                 </div>
                 <div class="content">
                     <div class="row">

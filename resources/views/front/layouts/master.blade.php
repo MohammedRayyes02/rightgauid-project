@@ -61,16 +61,22 @@
                                     الخدمات الصحية
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="achievements">
-                                  <li><a class="dropdown-item" href="service-details.html">التأمين الصحي</a></li>
-                                  <li><a class="dropdown-item" href="service-details.html">الاستشارات القانونية</a></li>
+                                  <li><a class="dropdown-item" href="{{ route('front.servicesDetails') }}">التأمين الصحي</a></li>
+                                  <li><a class="dropdown-item" href="{{ route('front.servicesDetails') }}">الاستشارات القانونية</a></li>
                                 </ul>
                               </div>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">تواصل معنا</a>
+                        <a class="nav-link" href="{{ route('front.aboutUs') }}">من نحن</a>
                     </li>
                     <li class="nav-item">
+{{--                         
+                         <li class="nav-item">
+                        <a class="nav-link" href="{{ route('front.contact-us') }}">تواصل معنا</a>
+                    </li> --}}
+                    <li class="nav-item">
+                        
                         <a href="#" class="btn cs-btn">
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="26.605" height="24"
@@ -94,7 +100,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="login.html" class="btn cs-btn v2">الدخول</a>
+                        <a href="{{ route('front.login') }}" class="btn cs-btn v2">الدخول</a>
                     </li>
                 </ul>
             </nav>
@@ -200,14 +206,14 @@
                                         الخدمات الصحية
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="achievements">
-                                      <li><a class="dropdown-item" href="service-details.html">التأمين الصحي</a></li>
-                                      <li><a class="dropdown-item" href="service-details.html">الاستشارات القانونية</a></li>
+                                      <li><a class="dropdown-item" href="{{ route('front.servicesDetails') }}">التأمين الصحي</a></li>
+                                      <li><a class="dropdown-item" href="{{ route('front.servicesDetails') }}">الاستشارات القانونية</a></li>
                                     </ul>
                                   </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us.html">تواصل معنا</a>
+                            <a class="nav-link" href="{{ route('front.contact-us') }}">تواصل معنا</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="btn cs-btn">
@@ -236,7 +242,7 @@
                     </ul>
                 </nav>
                 <div class="d-flex align-items-center gap-2">
-                    <a href="login.html" class="btn cs-btn v2">الدخول</a>
+                    <a href="{{ route('front.login') }}" class="btn cs-btn v2">الدخول</a>
                     <div class="lang d-flex align-items-center">
                         <!-- <a href="#"> -->
                         <div class="cs-dropdown">
@@ -527,7 +533,7 @@
                             <h3 class="title">المنصة</h3>
                             <ul>
                                 <li><a href="">الرئيسية</a></li>
-                                <li><a href="">المستشفيات</a></li>
+                                <li><a href="{{ route('front.hospitals') }}">المستشفيات</a></li>
                                 <li><a href="">الأخصائيين</a></li>
                                 <li><a href="">المدونة</a></li>
                             </ul>
@@ -537,8 +543,8 @@
                         <div class="f-widget">
                             <h3 class="title">روابط مهمة</h3>
                             <ul>
-                                <li><a href="about-us.html">من نحن</a></li>
-                                <li><a href="contact-us.html">تواصل معنا</a></li>
+                                <li><a href="{{ route('front.aboutUs') }}">من نحن</a></li>
+                                <li><a href="{{ route('front.contact-us') }}">تواصل معنا</a></li>
                                 <li><a href="policies.html">الشروط والأحكام</a></li>
                                 <li><a href="privacy.html">سياسة الخصوصية</a></li>
                             </ul>
@@ -548,8 +554,8 @@
                         <div class="f-widget">
                             <h3 class="title">خدمات صحية</h3>  
                             <ul>
-                                <li><a href="service-details.html"> التأمين الصحي</a></li>
-                                <li><a href="service-details.html">الاستشارات القانونية</a></li>
+                                <li><a href="{{ route('front.servicesDetails') }}"> التأمين الصحي</a></li>
+                                <li><a href="{{ route('front.servicesDetails') }}">الاستشارات القانونية</a></li>
                             </ul>                 
                         </div>
                     </div>

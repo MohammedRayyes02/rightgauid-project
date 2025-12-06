@@ -40,7 +40,7 @@
                                         </div>
                                         <div class="col-lg-12 text-center mt-4">
                                             <span class="font400 font-14 black-color">ليس لديك حساب؟</span>
-                                            <a href="register.html" class="forget_password">إنشاء حساب</a>
+                                            <a href="{{ route('front.register') }}" class="forget_password">إنشاء حساب</a>
                                         </div>
                                     </div>
         
