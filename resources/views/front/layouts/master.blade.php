@@ -100,7 +100,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('front.login') }}" class="btn cs-btn v2">الدخول</a>
+                        <a href="{{ route('login') }}" class="btn cs-btn v2">الدخول</a>
                     </li>
                 </ul>
             </nav>
@@ -241,8 +241,14 @@
                        
                     </ul>
                 </nav>
+              
+              
+                     <div class="d-flex align-items-center gap-2">
+                    <a href="{{ route('register') }}" class="btn cs-btn v2">إنشاء حساب</a>
+                    <div class="lang d-flex align-items-center">
+              
                 <div class="d-flex align-items-center gap-2">
-                    <a href="{{ route('front.login') }}" class="btn cs-btn v2">الدخول</a>
+                    <a href="{{ route('login') }}" class="btn cs-btn v2">الدخول</a>
                     <div class="lang d-flex align-items-center">
                         <!-- <a href="#"> -->
                         <div class="cs-dropdown">
